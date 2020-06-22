@@ -1,0 +1,51 @@
+{
+  "name": "daxslab/yii2-advanced-website",
+  "description": "Yii 2 Advanced app with website module",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "project template",
+    "website"
+  ],
+  "homepage": "http://www.daxslab.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/daxslab/yii2-advanced-website/issues?state=open",
+    "source": "https://github.com/daxslab/yii2-advanced-website"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "daxslab/yii2-website-module": "~1.0.8",
+    "daxslab/yii2-contactform-module": "^1.0",
+    "2amigos/yii2-usuario": "~1.0",
+    "kartik-v/yii2-icons": "@dev"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "~2.1.0",
+    "yiisoft/yii2-gii": "~2.1.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "codeception/codeception": "^4.0",
+    "codeception/module-asserts": "^1.0",
+    "codeception/module-yii2": "^1.0",
+    "codeception/module-filesystem": "^1.0",
+    "codeception/verify": "~0.5.0 || ~1.1.0",
+    "symfony/browser-kit": ">=2.7 <=4.2.4"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
